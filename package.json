@@ -1,0 +1,14 @@
+{
+  "name": "mongo-server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "3.3.4",
+    "http": "0.0.0",
+    "mongoose": "^5.5.8",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7"
+  }
+}
