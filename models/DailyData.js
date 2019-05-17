@@ -54,11 +54,6 @@ var DailyDataSchema = new Schema ({
     ref: 'Compliment',
     required: false,
   },
-  goal: {
-    type: Schema.ObjectId,
-    ref: 'Goal',
-    required: false,
-  },
 })
 
 module.exports = mongoose.model('DailyData', DailyDataSchema);

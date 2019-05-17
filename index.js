@@ -23,5 +23,4 @@ require('./routes/dailyDataRoutes.js')(app);
 require('./routes/notificationRoutes.js')(app);
 require('./routes/habitRoutes.js')(app);
 
-
 app.listen(process.env.PORT || 3000);
