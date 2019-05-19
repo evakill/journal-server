@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 var DailyDataSchema = new Schema ({
   date: {
-    type: Date,
+    type: Number,
     required: true,
   },
   timeSubmit: {
@@ -37,12 +37,12 @@ var DailyDataSchema = new Schema ({
   photo: {
     type: Schema.ObjectId,
     ref: 'Photo',
-    required: true,
+    required: false,
   },
   gratitude: {
     type: Schema.ObjectId,
     ref: 'Gratitude',
-    required: true,
+    required: false,
   },
   mantra: {
     type: Schema.ObjectId,
